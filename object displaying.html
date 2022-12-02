@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<p id="first"></p>
+</head>
+<body>
+	<script type="text/javascript">
+		var obj={firstname:"java",lastname:"Script",id:12345};
+		var newVariable=Object.values(obj);
+		console.log(newVariable);
+		document.getElementById("first").innerHTML=newVariable;
+	</script>
+</body>
+</html>
